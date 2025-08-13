@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--TODO add meta tags + basic SEO-->
+
+
+   <title>Tobias Biščák - Grafický Dizajnér Portfolio</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+   <link rel="icon" href="./images/Tobias_logo.png">
+   <link rel="stylesheet" href="./CSS/general.css">
+   <link rel="stylesheet" href="./CSS/home.css">
+   <script src="./javascript/fly_in.js"></script>
+   <script src="./javascript/nav_scroll.js"></script>
+</head> 
+<body>
+   <header class="header" id="header">
+      <nav class="nav_bar">
+         <div class="logo">
+            <figure>
+               <img src="./images/Tobias_logo.png" alt="logo" title="logo">
+            </figure>
+         </div>
+         <ul class="nav_list">
+            <li><a href="index.html#portfolio">Moje práce</a></li>
+            <li><a href="index.html#about">O mne</a></li>
+            <li><a href="index.html#skills">Zručnosti</a></li>
+            <li><a href="index.html#services">Služby</a></li>
+            <li><a href="index.html#contact" class="contact_btn">Kontakt</a></li>
+         </ul>
+         <div class="burger">
+            <div class="hamburger-menu">
+                  <input id="menu__toggle" type="checkbox">
+                  <label class="menu__btn" for="menu__toggle">
+                     <span></span>
+                  </label>
+                  <ul class="menu__box">
+                     <li><a href="index.html#portfolio">Moje práce</a></li>
+                     <li><a href="index.html#about">O mne</a></li>
+                     <li><a href="index.html#skills">Zručnosti</a></li>
+                     <li><a href="index.html#services">Služby</a></li>
+                     <li><a href="index.html#contact" class="contact_btn">Kontakt</a></li>
+                  </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main id="main">
+      <section id="landing_page">
+         <div class="shape shape-1"></div>
+         <div class="shape shape-2"></div>
+         <div class="shape shape-3"></div>
+         
+         <article class="landing_page">
+            <aside class="text scroll-effect from-left">
+               <h1>
+                     Tobias <br>
+                     Biščák
+               </h1>
+               <strong id="strong">
+                  Grafický dizajnér & Multimediálny Tvorca
+               </strong>
+               <p>
+                     Vytváram vizuálne zážitky, ktoré rozprávajú príbehy a vzbudzujú emócie. Každý projekt je pre mňa príležitosťou ukázať kreativitu a pomôcť klientom dosiahnuť ich ciele.
+               </p>
+               <div class="links">
+                     <a href="index.html#portfolio">Moje práce</a>
+                     <a href="index.html#contact">Kontaktujte ma</a>
+               </div>
+            </aside>
+            <figure class="image scroll-effect from-right">
+               <img src="./images/tobias_small.png" alt="Tobias Biščák portrét" title="Tobias Biščák portrét">
+            </figure>
+         </article>
+      </section>
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio scroll-effect from-bottom">
+         <div class="container">
+               <div class="section-header">
+                  <h2>Moja Práca</h2>
+                  <p class="section-subtitle">Preskúmajte moje najnovšie projekty a grafické návrhy</p>
+               </div>
+               
+               <div class="portfolio-filters">
+                  <button class="filter-btn active">Všetko</button>
+                  <button class="filter-btn">Grafika</button>
+                  <button class="filter-btn">Logo</button>
+                  <button class="filter-btn">Web Dizajn</button>
+                  <button class="filter-btn">Video</button>
+               </div>
+               
+               <div class="portfolio-grid">
+                  <!-- Portfolio Items -->
+                  <div class="portfolio-item" data-title="Plagát - Amy" data-image="./images/portfolio/plagaty/amy poster.jpg">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/plagaty/amy poster.jpg" alt="Amy Winehouse Poster">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Plagát - Amy</h3>
+                           <p>Tento plagát venovaný Amy Winehouse zdôrazňuje jej ikonický status pomocou minimalistickej kompozície. Červeno-čierna farebná paleta kontrastuje s čierno-bielou fotografiou, pričom typografia a citát „The voice of a generation“ podčiarkujú jej umelecké dedičstvo. Dizajn s retro nádychom odráža jej osobitý štýl a je ideálny pre výstavy, dokumenty či hudobné podujatia.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Grafika</span>
+                              <span class="portfolio-tag">Plagát</span>
+                           </div>
+                     </div>
+                  </div>
+                  
+                  <div class="portfolio-item" data-title="Plagát - Hokej" data-image="./images/portfolio/plagaty/hokej poster.jpg">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/plagaty/hokej poster.jpg" alt="Hockey Poster">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Plagát - Hokej</h3>
+                           <p>Plagát bol vytvorený na propagáciu hokejového zápasu a bol použitý ako oficiálny propagačný materiál, čím úspešne zaujal fanúšikov a zvýšil návštevnosť podujatia.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Grafika</span>
+                              <span class="portfolio-tag">Plagát</span>
+                           </div>
+                     </div>
+                  </div>
+                  
+                  <div class="portfolio-item" data-title="Plagát - Oasis" data-image="./images/portfolio/plagaty/oasis comaback.jpg">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/plagaty/oasis comaback.jpg" alt="Oasis Poster">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Plagát - Oasis</h3>
+                           <p>Tento plagát propaguje návrat legendárnej kapely Oasis s pútavým sloganom „The Return of Legends“. Dominantným vizuálom je mestská panoráma v atmosférickom večernom osvetlení, ktorá symbolizuje spojenie s rodným mestom kapely. Siluety dvoch postáv na popredí pridávajú záhadnosť a nostalgiu, pričom moderné logo kapely v strednej časti jasne signalizuje, že ide o veľkú udalosť.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Grafika</span>
+                              <span class="portfolio-tag">Plagát</span>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item" data-title="Plagát" data-image="./images/portfolio/plagaty/poster.jpg">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/plagaty/poster.jpg" alt="Poster Motivation">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Plagát - Motivation</h3>
+                           <p>Tento motivačný plagát bol vytvorený ako školské zadanie s cieľom precvičiť typografické zručnosti a dizajn. Dominantná fráza „The best way to get something done is to begin“ je zvýraznená pomocou kombinácie rôznych štýlov písma a veľkostí, ktoré dodávajú vizuálnu hierarchiu. Žlté pozadie so zamatovým gradientom vyžaruje pozitívnu energiu, zatiaľ čo jemné orámovanie dodáva dizajnu eleganciu.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Grafika</span>
+                              <span class="portfolio-tag">Plagát</span>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item" data-title="Plagát" data-image="./images/portfolio/plagaty/spoloc.tance 2...png">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/plagaty/spoloc.tance 2...png" alt="Oasis Poster">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Plagát - Tanec</h3>
+                           <p>Tento plagát propaguje spoločenské tance a zachytáva vášeň a eleganciu, ktorú tento štýl prináša. Dominantným vizuálom je ikonická dvojica známa z filmu. Plagát bol skutočne použitý ako oficiálny propagačný materiál na tanečné podujatie, kde úspešne prilákal tanečných nadšencov.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Grafika</span>
+                              <span class="portfolio-tag">Plagát</span>
+                           </div>
+                     </div>
+                  </div>
+                  
+                  <div class="portfolio-item" data-title="Logo - Multispark" data-image="./images/portfolio/loga/Multispark jpg-01.jpg">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/loga/Multispark jpg-01.jpg" alt="Multispark Logo">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Logo - Multispark</h3>
+                           <p>Chceli sme zobraziť všetky oblasti multimedíi v jednom logu, toto logo sa bude používať pre môj vedľajší projekt.</p>
+                           <ol>
+                              <li>Biela šípka symbilizuje grafiku</li>
+                              <li>Hranaté zátvorky symbolizujú web</li>
+                              <li>Červená bodka symbolizuje nahrávanie videa</li>
+                              <li>Trojuholník symbilizuje play a to pre audio</li>
+                              <li>Štvorec symbolizuje zameriavač vo fotografovaní</li>
+                           </ol>
+
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Logo</span>
+                              <span class="portfolio-tag">Branding</span>
+                           </div>
+                     </div>
+                  </div>
+
+                  <div class="portfolio-item" data-title="Logo - Multispark" data-image="./images/portfolio/loga/pp-01.jpg">
+                     <div class="portfolio-img">
+                           <img src="./images/portfolio/loga/pp-01.jpg" alt="Logo PP">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Logo - PP</h3>
+                           <p>Toto logo bolo vytvorené pre môj ďalší vedľajší projekt a to robenie editov. V logu je dynamicky použitý pulz a dve písmená P ktoré označujú názov projektu</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Logo</span>
+                              <span class="portfolio-tag">Branding</span>
+                           </div>
+                     </div>
+                  </div>
+                  
+                  <div class="portfolio-item" data-title="Web Design - Samuraj Sushi" data-image="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1700&q=80">
+                     <div class="portfolio-img">
+                           <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1700&q=80" alt="Samuraj Sushi Web">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Web Design - Samuraj Sushi</h3>
+                           <p>Kompletný web dizajn pre reštauráciu špecializujúcu sa na sushi.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Web Dizajn</span>
+                              <span class="portfolio-tag">UI/UX</span>
+                           </div>
+                     </div>
+                  </div>
+                  
+                  <div class="portfolio-item" data-title="Videoklip - Basketbal" data-image="https://images.unsplash.com/photo-1579033462043-0f11a7862f7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80">
+                     <div class="portfolio-img">
+                           <img src="https://images.unsplash.com/photo-1579033462043-0f11a7862f7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Basketball Video">
+                     </div>
+                     <div class="portfolio-info">
+                           <h3>Videoklip - Basketbal</h3>
+                           <p>Dynamický videoklip zachytávajúci emócie a akciu basketbalového zápasu.</p>
+                           <div class="portfolio-tags">
+                              <span class="portfolio-tag">Video</span>
+                              <span class="portfolio-tag">Edit</span>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </section>
+
+      <!-- Fullscreen Gallery -->
+      <div class="gallery-overlay">
+         <div class="gallery-content">
+               <span class="gallery-close"><i class="fas fa-times"></i></span>
+               <img src="" alt="" class="gallery-image">
+               <h3 class="gallery-title"></h3>
+               <div class="gallery-nav">
+                  <div class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></div>
+                  <div class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></div>
+               </div>
+         </div>
+      </div>
+      <section></section>
+      <!-- About Section -->
+   <section id="about" class="about-section">
+      <div class="about-decor decor-1"></div>
+      <div class="about-decor decor-2"></div>
+      <div class="about-decor decor-3"></div>
+      
+      <div class="section-header">
+         <h2>O mne</h2>
+      </div>
+
+      <div class="about-container">
+         <div class="about-content">
+            <p>
+               Ahoj, volám sa Tobias a som grafický dizajnér. Už od malička ma fascinovalo, ako dokáže dobrý dizajn rozprávať príbehy a vytvárať emócie. Každý projekt vnímam ako príležitosť ukázať svoju kreativitu a zároveň pomôcť klientom dosiahnuť ich ciele.
+            </p>
+            <p>
+               Špecializujem sa na tvorbu vizuálnej identity, branding, tlačové materiály a web dizajn. Môj prístup kombinuje moderné dizajnové trendy s funkčnosťou a praktickým využitím.
+            </p>
+            <p>
+               Verím, že dobrý dizajn by mal byť nielen esteticky príťažlivý, ale aj funkčný a účinný pri komunikácii posolstva. Svoju prácu vykonávam s vášňou a dôrazom na detail.
+            </p>
+            
+            <div class="about-stats">
+               <div class="stat-box">
+                  <div class="stat-number">8+</div>
+                  <div class="stat-label">Rokov skúseností</div>
+               </div>
+               <div class="stat-box">
+                  <div class="stat-number">150+</div>
+                  <div class="stat-label">Projektov</div>
+               </div>
+               <div class="stat-box">
+                  <div class="stat-number">95%</div>
+                  <div class="stat-label">Spokojných klientov</div>
+               </div>
+               <div class="stat-box">
+                  <div class="stat-number">50+</div>
+                  <div class="stat-label">Logo dizajnov</div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="about-image">
+            <img src="./images/tobias_small.png" alt="Tobias Biščák - Grafický Dizajnér">
+         </div>
+      </div>
+   </section>
+
+      <section id="skills" class="scroll-effect from-bottom">
+         <div class="section-header">
+            <h2>Moje zručnosti</h2>
+            <p class="section-subtitle">Zistite viac o mojich zručnostiach</p>
+         </div>
+         <article class="skills">
+            <div class="skills-container">
+                  
+                  <div class="skill">
+                     <div class="skill-header">
+                           <span>Adobe Photoshop</span>
+                           <span>90%</span>
+                     </div>
+                     <div class="skill-bar">
+                           <div class="skill-level" style="width: 90%"></div>
+                     </div>
+                  </div>
+                  
+                  <div class="skill">
+                     <div class="skill-header">
+                           <span>Adobe Illustrator</span>
+                           <span>85%</span>
+                     </div>
+                     <div class="skill-bar">
+                           <div class="skill-level" style="width: 85%"></div>
+                     </div>
+                  </div>
+                  
+                  <div class="skill">
+                     <div class="skill-header">
+                           <span>Adobe InDesign</span>
+                           <span>80%</span>
+                     </div>
+                     <div class="skill-bar">
+                           <div class="skill-level" style="width: 80%"></div>
+                     </div>
+                  </div>
+                  
+                  <div class="skill">
+                     <div class="skill-header">
+                           <span>Adobe Premiere Pro</span>
+                           <span>85%</span>
+                     </div>
+                     <div class="skill-bar">
+                           <div class="skill-level" style="width: 85%"></div>
+                     </div>
+                  </div>
+                  
+                  <div class="skill">
+                     <div class="skill-header">
+                           <span>Figma</span>
+                           <span>75%</span>
+                     </div>
+                     <div class="skill-bar">
+                           <div class="skill-level" style="width: 75%"></div>
+                     </div>
+                  </div>
+               </div>
+         </article>
+      </section>
+      <!-- Services Section -->
+      <section id="services" class="services scroll-effect from-bottom">
+         <div class="container">
+               <div class="section-header">
+                  <h2>Služby</h2>
+                  <p class="section-subtitle">Čo pre vás môžem vytvoriť</p>
+               </div>
+               
+               <div class="services-grid">
+                  <div class="service-card">
+                     <div class="service-icon">
+                        <img src="./images/icons/tvorba_loga-01.png" alt="Tvorba Loga" title="Tvorba Loga">
+                     </div>
+                     <h3>Tvorba Loga</h3>
+                     <p>Jedinečné logo, ktoré reprezentuje vašu značku a vystihuje jej podstatu. Tvorím identitu, ktorá vás odlíši od konkurencie.</p>
+                     <a href="service1.html" class="service-link">Viac informácií</a>
+                  </div>
+                  
+                  <div class="service-card">
+                     <div class="service-icon">
+                        <img src="./images/icons/branding-01.png" alt="Branding" title="Branding">
+                     </div>
+                     <h3>Branding</h3>
+                     <p>Kompletná vizuálna identita vašej značky vrátane loga, farebnej schémy, typografie a marketingových materiálov.</p>
+                     <a href="service2.html" class="service-link">Viac informácií</a>
+                  </div>
+                  
+                  <div class="service-card">
+                     <div class="service-icon">
+                        <img src="./images/icons/reklama-01.png" alt="Reklamné Materiály" title="Reklamné Materiály">
+                     </div>
+                     <h3>Reklamné Materiály</h3>
+                     <p>Návrhy letákov, plagátov, brožúr a bannerov, ktoré efektívne komunikujú vaše posolstvo a oslovia cieľovú skupinu.</p>
+                     <a href="service3.html" class="service-link">Viac informácií</a>
+                  </div>
+                  
+                  <div class="service-card">
+                     <div class="service-icon">
+                        <img src="./images/icons/socialne_siete-01.png" alt="Grafika pre Sociálne Siete" title="Grafika pre Sociálne Siete">
+                     </div>
+                     <h3>Grafika pre Sociálne Siete</h3>
+                     <p>Poutavý obsah pre Facebook, Instagram a ďalšie platformy, ktorý zvýši vašu online prítomnosť a engažment.</p>
+                     <a href="service4.html" class="service-link">Viac informácií</a>
+                  </div>
+                  
+                  <div class="service-card">
+                     <div class="service-icon">
+                        <img src="./images/icons/tlacoviny-01.png" alt="Tvorba Tlačovín" title="Tvorba Tlačovín">
+                     </div>
+                     <h3>Tvorba Tlačovín</h3>
+                     <p>Profesionálne tlačové materiály ako vizitky, hlavičkové papiere, brožúry a katalógy v najvyššej kvalite.</p>
+                     <a href="service5.html" class="service-link">Viac informácií</a>
+                  </div>
+                  
+                  <div class="service-card">
+                     <div class="service-icon">
+                        <img src="./images/icons/web-01.png" alt="Web Dizajn" title="Web Dizajn">
+                     </div>
+                     <h3>Web Dizajn</h3>
+                     <p>Moderné a použivateľsky prívetivé webové stránky, ktoré oslovia vašich návštevníkov a podporia vaše podnikanie.</p>
+                     <a href="service6.html" class="service-link">Viac informácií</a>
+                  </div>
+               </div>
+         </div>
+      </section>
+      <section id="contact" class="scroll-effect from-bottom">
+         <div class="contact-decor contact-decor-1"></div>
+         <div class="contact-decor contact-decor-2"></div>
+         <div class="contact-decor contact-decor-3"></div>
+         
+         <div class="contact-container">
+            <div class="section-header">
+               <h2>Kontaktujte ma</h2>
+               <p class="section-subtitle">Sledujte moju prácu a spojme sa na Instagrame</p>
+            </div>
+            
+            <div class="instagram-card">
+               <div class="instagram-icon">
+                  <i class="fab fa-instagram"></i>
+               </div>
+               <h3>@tobias_design</h3>
+               <p>Najjednoduchší spôsob ako ma kontaktovať je cez Instagram. Sledujte moju prácu, pošlite mi správu alebo ma označte vo svojich príspevkoch. Teším sa na našu spoluprácu!</p>
+               <a href="https://www.instagram.com/tobias_design/" target="_blank" class="instagram-link">
+                  <i class="fab fa-instagram"></i> Sledovať na Instagrame
+               </a>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer id="footer">
+      <section id="footer_info">
+         <article class="footer_info">
+            <aside class="footer_about">
+               <div class="footer_logo">
+                  <img src="./images/Tobias_logo.png" alt="Tobias Logo">
+               </div>
+               <p>
+                  Vytváram vizuálne zážitky, ktoré rozprávajú príbehy a vzbudzujú emócie. Každý projekt je pre mňa príležitosťou ukázať kreativitu a pomôcť klientom dosiahnuť ich ciele.
+               </p>
+               <div class="social_links">
+                  <a href="#" class="social_icon">
+                     <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#" class="social_icon">
+                     <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" class="social_icon">
+                     <i class="fab fa-behance"></i>
+                  </a>
+                  <a href="#" class="social_icon">
+                     <i class="fab fa-dribbble"></i>
+                  </a>
+               </div>
+            </aside>
+            
+            <aside class="foot_nav">
+               <h3 class="footer_heading">Rýchle odkazy</h3>
+               <ul>
+                  <li><a href="tvorba.html">Tvorba Loga</a></li>
+                  <li><a href="branding.html">Branding</a></li>
+                  <li><a href="reklama.html">Reklamné Materiály</a></li>
+                  <li><a href="social.html">Grafika pre Sociálne Siete</a></li>
+                  <li><a href="tlacoviny.html">Tvorba Tlačovín</a></li>
+                  <li><a href="web.html">Web Dizajn</a></li>
+               </ul>
+            </aside>
+            
+            <aside class="social_media">
+               <h3 class="footer_heading">Kontaktujte ma</h3>
+               <div class="contact_info">
+                  <div class="contact_item">
+                     <div class="contact_icon">
+                        <i class="fas fa-envelope"></i>
+                     </div>
+                     <span>tobias@designportfolio.sk</span>
+                  </div>
+                  <div class="contact_item">
+                     <div class="contact_icon">
+                        <i class="fas fa-phone-alt"></i>
+                     </div>
+                     <span>+421 123 456 789</span>
+                  </div>
+                  <div class="contact_item">
+                     <div class="contact_icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                     </div>
+                     <span>Turčianske Teplice, Slovensko</span>
+                  </div>
+               </div>
+            </aside>
+         </article>
+      </section>
+      
+      <section id="copyright">
+         <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i> Späť na začiatok
+         </a>
+         <p>&copy; 2023 Tobias Biščák | Všetky práva vyhradené.</p>
+         <p>Stránku vytvoril: <a href="https://www.linkedin.com/in/samuel-hula/">Samuel Hula</a></p>
+      </section>
+   </footer>
+   <script>
+      // Fullscreen Gallery Functionality
+      const galleryOverlay = document.querySelector('.gallery-overlay');
+      const galleryImage = document.querySelector('.gallery-image');
+      const galleryTitle = document.querySelector('.gallery-title');
+      const galleryClose = document.querySelector('.gallery-close');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+      const prevBtn = document.querySelector('.prev-btn');
+      const nextBtn = document.querySelector('.next-btn');
+      
+      let currentIndex = 0;
+      let portfolioImages = [];
+      let portfolioTitles = [];
+      
+      // Collect all portfolio images and titles
+      portfolioItems.forEach((item, index) => {
+         const image = item.querySelector('img').src;
+         const title = item.dataset.title;
+         
+         portfolioImages.push(image);
+         portfolioTitles.push(title);
+         
+         item.addEventListener('click', () => {
+               openGallery(index);
+         });
+      });
+      
+      function openGallery(index) {
+         currentIndex = index;
+         galleryImage.src = portfolioImages[currentIndex];
+         galleryTitle.textContent = portfolioTitles[currentIndex];
+         galleryOverlay.classList.add('active');
+         document.body.style.overflow = 'hidden';
+      }
+      
+      function closeGallery() {
+         galleryOverlay.classList.remove('active');
+         document.body.style.overflow = 'auto';
+      }
+      
+      function navigateGallery(direction) {
+         currentIndex += direction;
+         
+         if (currentIndex < 0) {
+               currentIndex = portfolioImages.length - 1;
+         } else if (currentIndex >= portfolioImages.length) {
+               currentIndex = 0;
+         }
+         
+         galleryImage.src = portfolioImages[currentIndex];
+         galleryTitle.textContent = portfolioTitles[currentIndex];
+      }
+      
+      galleryClose.addEventListener('click', closeGallery);
+      prevBtn.addEventListener('click', () => navigateGallery(-1));
+      nextBtn.addEventListener('click', () => navigateGallery(1));
+      
+      // Close gallery when clicking outside the content
+      galleryOverlay.addEventListener('click', (e) => {
+         if (e.target === galleryOverlay) {
+               closeGallery();
+         }
+      });
+      
+      // Keyboard navigation
+      document.addEventListener('keydown', (e) => {
+         if (galleryOverlay.classList.contains('active')) {
+               if (e.key === 'Escape') {
+                  closeGallery();
+               } else if (e.key === 'ArrowLeft') {
+                  navigateGallery(-1);
+               } else if (e.key === 'ArrowRight') {
+                  navigateGallery(1);
+               }
+         }
+      });
+
+      // Portfolio filtering
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      
+      filterButtons.forEach(button => {
+         button.addEventListener('click', () => {
+               // Remove active class from all buttons
+               filterButtons.forEach(btn => btn.classList.remove('active'));
+               
+               // Add active class to clicked button
+               button.classList.add('active');
+               
+               const filterValue = button.textContent;
+               
+               // Filter portfolio items
+               portfolioItems.forEach(item => {
+                  if (filterValue === 'Všetko') {
+                     item.style.display = 'block';
+                  } else {
+                     const tags = item.querySelectorAll('.portfolio-tag');
+                     let hasTag = false;
+                     
+                     tags.forEach(tag => {
+                           if (tag.textContent === filterValue) {
+                              hasTag = true;
+                           }
+                     });
+                     
+                     if (hasTag) {
+                           item.style.display = 'block';
+                     } else {
+                           item.style.display = 'none';
+                     }
+                  }
+               });
+         });
+      });
+   </script>
+   <script>
+      // Animation for the stats
+      document.addEventListener('DOMContentLoaded', function() {
+         const stats = document.querySelectorAll('.stat-number');
+         stats.forEach(stat => {
+            const target = +stat.innerText.replace('+', '').replace('%', '');
+            let count = 0;
+            const duration = 2000;
+            const increment = target / (duration / 16);
+            
+            const updateCount = () => {
+               if (count < target) {
+                  count += increment;
+                  stat.innerText = Math.ceil(count) + 
+                                    (stat.innerText.includes('+') ? '+' : 
+                                    stat.innerText.includes('%') ? '%' : '');
+                  setTimeout(updateCount, 16);
+               } else {
+                  stat.innerText = target + 
+                                    (stat.innerText.includes('+') ? '+' : 
+                                    stat.innerText.includes('%') ? '%' : '');
+               }
+            };
+            
+            // Start animation when element is in viewport
+            const observer = new IntersectionObserver((entries) => {
+               if (entries[0].isIntersecting) {
+                  updateCount();
+                  observer.unobserve(stat);
+               }
+            }, { threshold: 0.5 });
+            
+            observer.observe(stat);
+         });
+      });
+   </script>
+</body>
+</html>
