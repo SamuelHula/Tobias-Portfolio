@@ -1,6 +1,6 @@
 # Tobias Biščák - Portfolio Website
 
-![Portfolio Screenshot](./images/portfolio-screenshot.png)
+![Portfolio Screenshot](./images/tobias.png)
 
 ## Overview
 Professional portfolio website for Tobias Biščák, a graphic designer and multimedia creator. Showcases work, skills, services, and contact information with a modern, visually appealing interface.
@@ -23,3 +23,4 @@ Professional portfolio website for Tobias Biščák, a graphic designer and mult
 ## Credits
 **Design & Development:** Tobias Biščák
 **Web Development Assistance:** Samuel Hula
+
